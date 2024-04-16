@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^5.12.1",
     "@vercel/postgres": "^0.8.0",
     "next": "14.2.1",
+    "next-auth": "^4.24.7",
     "pg": "^8.11.5",
     "react": "^18",
     "react-dom": "^18"
