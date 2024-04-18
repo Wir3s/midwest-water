@@ -53,6 +53,7 @@ const options = {
       return session;
     },
   },
+  secret: process.env.NEXTAUTH_SECRET,
 };
 
 export function GET(req, res) {
